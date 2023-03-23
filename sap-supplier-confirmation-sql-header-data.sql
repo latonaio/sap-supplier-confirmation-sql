@@ -5,7 +5,7 @@ CREATE TABLE `sap_supplier_confirmation_header_data`
   `SuplrConfProcessingStatus`      varchar(20) DEFAULT NULL,
   `SuplrConfExternalReference`     varchar(80) DEFAULT NULL,
   `LastChangeDateTime`             time DEFAULT NULL,
-  `CreationDate`                   varchar(8) DEFAULT NULL,
+  `CreationDate`                   date DEFAULT NULL,
   `SAPMessages`                    varchar(80) DEFAULT NULL,
   `Code`                           varchar(4) DEFAULT NULL,
   `Message`                        varchar(80) DEFAULT NULL,
